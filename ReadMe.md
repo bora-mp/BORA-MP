@@ -4,6 +4,8 @@ Minecraft: Bedrock Edition için BORA Sunucu Yazılımı
 
 __Minecraft için oldukça özelleştirilebilir, açık kaynaklı bir sunucu yazılımı: PHP ile yazılmış Bedrock Edition__
 
+[![Documentation Status](https://readthedocs.org/projects/bora-mp/badge/?version=latest)](https://bora-mp.readthedocs.io/tr/latest/?badge=latest)
+
 ### Kurulum, Yardım & Destek, S.S.S
 Kurulum hakkında bilgiler için [dökümasyon sitesi](https://bora.readthedocs.org/) 'ne gidin.
 Eğer oradaki bilgilerle kurulum yapamazsanız, [forumumuza gidin](https://forum.servershard.net/).
