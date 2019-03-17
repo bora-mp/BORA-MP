@@ -1,22 +1,23 @@
 <?php
 
 /*
- *
- *  ____            _        _   __  __ _                  __  __ ____
- * |  _ \ ___   ___| | _____| |_|  \/  (_)_ __   ___      |  \/  |  _ \
- * | |_) / _ \ / __| |/ / _ \ __| |\/| | | '_ \ / _ \_____| |\/| | |_) |
- * |  __/ (_) | (__|   <  __/ |_| |  | | | | | |  __/_____| |  | |  __/
- * |_|   \___/ \___|_|\_\___|\__|_|  |_|_|_| |_|\___|     |_|  |_|_|
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * @author PocketMine Team
- * @link http://www.bora.net/
- *
- *
+*
+*    ____   ____  _____                 __  __ _____
+*   |  _ \ / __ \|  __ \     /\        |  \/  |  __ \
+*   | |_) | |  | | |__) |   /  \ ______| \  / | |__) |
+*   |  _ <| |  | |  _  /   / /\ \______| |\/| |  ___/
+*   | |_) | |__| | | \ \  / ____ \     | |  | | |
+*   |____/ \____/|_|  \_\/_/    \_\    |_|  |_|_|
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* @author Bora Team
+* @link http://bora.kodmadeni.com/
+*
+*
 */
 
 declare(strict_types=1);
@@ -28,6 +29,23 @@ namespace bora\utils;
 use function count;
 
 class Color{
+
+    public const COLOR_DYE_BLACK = 0;
+    public const COLOR_DYE_RED = 1;
+    public const COLOR_DYE_GREEN = 2;
+    public const COLOR_DYE_BROWN = 3;
+    public const COLOR_DYE_BLUE = 4;
+    public const COLOR_DYE_PURPLE = 5;
+    public const COLOR_DYE_CYAN = 6;
+    public const COLOR_DYE_LIGHT_GRAY = 7;
+    public const COLOR_DYE_GRAY = 8;
+    public const COLOR_DYE_PINK = 9;
+    public const COLOR_DYE_LIME = 10;
+    public const COLOR_DYE_YELLOW = 11;
+    public const COLOR_DYE_LIGHT_BLUE = 12;
+    public const COLOR_DYE_MAGENTA = 13;
+    public const COLOR_DYE_ORANGE = 14;
+    public const COLOR_DYE_WHITE = 15;
 
 	/** @var int */
 	protected $a;
