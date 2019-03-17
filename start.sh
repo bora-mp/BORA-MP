@@ -1,4 +1,4 @@
-#!/bin/bash
+y#!/bin/bash
 DIR="$(cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 cd "$DIR"
 DO_LOOP="yes"
@@ -35,8 +35,8 @@ if [ "$POCKETMINE_FILE" == "" ]; then
 	if [ -f ./src/bora/Bora.php ]; then
 		POCKETMINE_FILE="./src/bora/Bora.php"
 	else
-		echo "PocketMine-MP.phar not found"
-		echo "Downloads can be found at https://github.com/pmmp/PocketMine-MP/releases"
+		echo "Bora not found"
+		echo "Downloads can be found at https://github.com/bora-mp/BORA-MP/releases"
 		exit 1
 	fi
 fi
