@@ -25,7 +25,7 @@ Sunucunuzu kişiselleştirmek için kullanabileceğiniz, önceden yazılmış bi
 Evet yapabilirsin! Yazılımı geliştirecek her türlü katkılara açığız. Yapmanız gereken [forumumuzda konu açmak](http://forum.servershard.net/index.php?forums/katkılar-ve-destekler.8/) 
 
 ### Güncel .phar nereden bulabilirim?
-- [GitHub](https://github.com/bora-mp/BORA-MP/releases).
+- [GitHub](https://github.com/bora-mp/BORA-MP/releases)
 - [Forum](http://forum.servershard.net/index.php?forums/haberler.7/)
 
 ## Lisans Bilgisi
