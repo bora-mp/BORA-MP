@@ -41,6 +41,10 @@ use bora\entity\projectile\EnderPearl;
 use bora\entity\projectile\ExperienceBottle;
 use bora\entity\projectile\Snowball;
 use bora\entity\projectile\SplashPotion;
+use bora\entity\passivemobs\Chicken;
+use bora\entity\passivemobs\Cow;
+use bora\entity\passivemobs\Pig;
+use bora\entity\passivemobs\Sheep;
 use bora\event\entity\EntityDamageEvent;
 use bora\event\entity\EntityDespawnEvent;
 use bora\event\entity\EntityLevelChangeEvent;
@@ -73,6 +77,7 @@ use bora\plugin\Plugin;
 use bora\Server;
 use bora\timings\Timings;
 use bora\timings\TimingsHandler;
+use bora\utils\Random;
 use function abs;
 use function assert;
 use function cos;
@@ -306,6 +311,10 @@ abstract class Entity extends Location implements Metadatable, EntityIds{
 		Entity::registerEntity(Squid::class, false, ['Squid', 'minecraft:squid']);
 		Entity::registerEntity(Villager::class, false, ['Villager', 'minecraft:villager']);
 		Entity::registerEntity(Zombie::class, false, ['Zombie', 'minecraft:zombie']);
+        Entity::registerEntity(Chicken::class, false, ['Chicken', 'minecraft:chicken']);
+        Entity::registerEntity(Cow::class, false, ['Cow', 'minecraft:cow']);
+        Entity::registerEntity(Pig::class, false, ['Pig', 'minecraft:pig']);
+        Entity::registerEntity(Sheep::class, false, ['Sheep', 'minecraft:sheep']);
 
 		Entity::registerEntity(Human::class, true);
 
@@ -532,8 +541,10 @@ abstract class Entity extends Location implements Metadatable, EntityIds{
 
 
 	public function __construct(Level $level, CompoundTag $nbt){
+
 		$this->constructed = true;
 		$this->timings = Timings::getEntityTimings($this);
+
 
 		$this->temporalVector = new Vector3();
 
