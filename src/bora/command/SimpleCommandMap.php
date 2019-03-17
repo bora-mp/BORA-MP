@@ -136,9 +136,9 @@ class SimpleCommandMap implements CommandMap{
 			new TitleCommand("title"),
 			new TransferServerCommand("transferserver"),
 			new VersionCommand("version"),
-            new WhitelistCommand("whitelist"),
-            new XpCommand("xp"),
-            new ClearCommand("clear")
+            		new WhitelistCommand("whitelist"),
+            		new XpCommand("xp"),
+           		new ClearCommand("clear")
 		]);
 	}
 
